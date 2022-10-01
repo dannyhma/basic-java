@@ -6,8 +6,7 @@ public class NestedLoop {
         System.out.println("Tampilkan dan jumlahkan bilangan ganjil : \n");
 
         // syarat looping
-        for (int i = 1; i <= 20; ++i) {
-            // 
+        for (int i = 1; i <= 50; ++i) {
             iterasi++;
             // kondisi cetak bilangan ganjil
             // akan bernilai true atau menghasilkan angka 1 jika variabel i 
@@ -18,7 +17,7 @@ public class NestedLoop {
                 // kondisi jumlahkan semua bilangan ganjil
                 jumlah = jumlah + i;
             }
-
+            
             // kondisi jika iterasi
             if (iterasi == 10) {
                 iterasi = 0;
@@ -37,7 +36,7 @@ public class NestedLoop {
         int jumlah_ = 0;    
         System.out.println("Tampilkan dan jumlahkan bilangan genap : \n");
 
-        for (int j = 1; j <= 20; ++j) {
+        for (int j = 1; j <= 50; ++j) {
             iterasi_++;
             // kondisi cetak bilangan genap
             // akan bernilai true atau menghasilkan angka 1 jika variabel j 
